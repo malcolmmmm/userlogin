@@ -38,7 +38,6 @@ def decoder(words, cipher):
             result = result + wordo[i]
     return result
 characters=os.path.getsize('dbs.txt')
-print(characters)
 if characters > 0:  
   hmm = open('dbs.txt', 'r')
   data = str(hmm.read())
